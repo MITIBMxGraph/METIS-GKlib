@@ -1,3 +1,19 @@
+# Installation instructions for SALIENT++
+
+NOTICE: For general use of METIS, please see the official repositories for METIS and GKLib provided by the KarypisLab. 
+This repository exists simply to iron out issues we encountered with the build process for METIS and GKLib. Our modifications
+carry no guarantees, but we hope they will streamline the installation of SALIENT++.
+
+Installation instructions for SALIENT++.
+
+Run
+
+```bash
+make config shared=1 cc=gcc prefix=<path/to/salient++/directory>/pkgs/ i64=1 r64=1 gklib_path=GKlib/
+```
+
+
+
 # METIS 
 
 METIS is a set of serial programs for partitioning graphs, partitioning finite element meshes, 
