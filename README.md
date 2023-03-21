@@ -1,4 +1,4 @@
-# Installation instructions for SALIENT++
+# NOTICE and Instructions for use with SALIENT++
 
 NOTICE: For general use of METIS, please see the official repositories for METIS and GKLib provided by the KarypisLab. 
 This repository exists simply to iron out issues we encountered with the build process for METIS and GKLib. Our modifications
