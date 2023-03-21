@@ -9,7 +9,7 @@ Installation instructions for SALIENT++.
 Run
 
 ```bash
-make config shared=1 cc=gcc prefix=<path/to/salient++/directory>/pkgs/ i64=1 r64=1 gklib_path=GKlib/
+make config shared=1 cc=gcc prefix=$(realpath ../pkgs) i64=1 r64=1 gklib_path=GKlib/
 ```
 
 
