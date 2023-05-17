@@ -62,6 +62,10 @@ endif
 ifneq ($(cc), not-set)
     CONFIG_FLAGS += -DCMAKE_C_COMPILER=$(cc)
 endif
+cputype = $(shell uname -m | sed "s/\\ /_/g")
+ifneq ($(cputype), x86_64)
+    CONFIG_FLAGS += -DNO_X86=$(cputype)
+endif
 
 VERNUM=5.1.0
 PKGNAME=metis-$(VERNUM)
